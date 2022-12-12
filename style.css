@@ -1,0 +1,231 @@
+
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*section : navbar*/
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color:wheat;
+}
+
+#navbar .med{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    font-weight: bold;
+    color: blue;
+}
+
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+}
+#navbar ul li a{
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: aqua;
+}
+
+#navbar .chah input{
+    width: 220px;
+    height: 30px;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.cart i{
+    vertical-align: bottom;
+    font-size: 20px;
+}
+
+.cart a{
+    background-color: blue;
+    cursor: pointer;
+}
+
+/*section :showcase */
+#showcase{
+    background: rgb(0,0,0,0.8) url(./images/face.jpg) no-repeat center center/cover;
+    height: 70vh;
+    color: white;
+}
+
+/*section :clothes */
+#clothes{
+    background-color: bisque;
+    padding-top: 1rem;
+}
+.first-one{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.clothers-fire{
+    width: 220px;
+    height: 240px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.clothers-fire img{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+}
+.add-ligne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.add-cart{
+    position: absolute;
+    /*width: 100%;*/
+    background-color: darkgray;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.clothers-fire:hover .cart1{
+    bottom: 45px;
+    width: 219px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: bisque;
+    border: none;
+    padding-right: 1rem;
+   /* color: red;*/
+}
+
+/*+++++cart-shopping++++*/
+.product-header{
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: blue;
+    border-bottom: 1px solid gray;
+}
+/*
+.products {
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}*/
+
+.products img{
+    width: 15px;
+}
+.product-title{
+    width: 45%;
+    border-bottom: 1px solid grey;
+}
+.price{
+    width: 15%;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+.quantity{
+    width: 30%;
+    border-bottom: 1px solid grey;
+}
+.total{
+    width: 10%;
+    border-bottom: 1px solid grey;
+}
+.basketTotalTitle{
+    width: 30%;
+}
+
+.products i{
+    font-size: 15px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.baskettotalContainer{
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px,0;
+    color: red;
+}
+.product-item{
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*footer*/
+#foot{
+    background-color: bisque;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.para{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
